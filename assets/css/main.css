@@ -2563,6 +2563,8 @@ Button
 			display: block;
 			margin: 4rem 0;
 			width: 100%;
+			border-radius: 50%;
+			overflow: hidden;
 		}
 
 			.image.main:first-child {
@@ -2570,7 +2572,8 @@ Button
 			}
 
 			.image.main img {
-				width: 100%;
+				width: 40%;
+				margin: auto;
 			}
 
 		@media screen and (max-width: 736px) {
@@ -3727,7 +3730,7 @@ Button
 			@media screen and (max-width: 1280px) {
 
 				#main > .post {
-					padding: 6rem 4rem 4rem 4rem ;
+					padding: 0rem 4rem 4rem 4rem ;
 				}
 
 			}
@@ -3735,7 +3738,7 @@ Button
 			@media screen and (max-width: 736px) {
 
 				#main > .post {
-					padding: 4rem 2rem 2rem 2rem ;
+					padding: 0rem 2rem 2rem 2rem ;
 				}
 
 					#main > .post header.major > .date {
@@ -3896,7 +3899,7 @@ Button
 		}
 
 		#footer a {
-			color: black;
+			color:darkturquoise;
 			border-bottom-color: rgba(248, 248, 248, 0.5);
 		}
 
